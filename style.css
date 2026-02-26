@@ -1,0 +1,77 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+section.vh-100 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b6448;
+}
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+}
+
+input.form-control {
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+    background-color: #5b9f6f;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #4a8c59;
+}
+
+.form-check-input {
+    margin-right: 10px;
+}
+
+.text-muted a {
+    color: #1e0fee;
+    text-decoration: none;
+}
+
+.text-muted a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .col-12 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
